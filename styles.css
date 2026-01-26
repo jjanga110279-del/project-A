@@ -131,91 +131,83 @@ img {
 .main-banner {
   position: relative;
   width: 100%;
-  max-width: 1920px;
-  height: 800px;
+  aspect-ratio: 1920 / 800; 
   margin: 0 auto;
   overflow: hidden;
-  font-family: "Pretendard", sans-serif;
-  color: #ffffff;
+  background-color: #f4f4f4;
 }
-
 .main-banner__image {
   width: 100%;
   height: 100%;
 }
-
 .main-banner__image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
 .main-banner__content {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+ color: #fff;
+  pointer-events: none; 
 }
-
 .main-banner__title {
-  position: relative;
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
   width: 100%;
-  height: 400px;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: capitalize;
 }
-
-.main-banner__title span {
-  position: absolute;
-  display: block;
-}
-
 .year {
-  font-size: 50px;
-  font-weight: 400;
+ position: absolute;
+  top: 21%;
   left: 30%;
-  top: 37%;
+  font-size: clamp(14px, 2vw, 40px); 
+  font-weight: 300;
 }
-
-.Spring {
-  font-size: 150px;
-  font-weight: 700;
-  left: 39%;
-  top: 25%;
-  line-height: 1;
-}
-
-.Summer {
-  font-size: 140px;
+.Spring, .Summer {
+  display: block;
+  font-size: clamp(40px, 8vw, 140px);
   font-weight: 800;
-  top: 60%;
-  line-height: 1;
+  line-height: 0.9;
+  letter-spacing: -0.02em;
 }
-
 .for-yoy {
-  font-size: 40px;
+   position: absolute;
+  top: 75%;
+  right: 25%;
+  font-size: clamp(14px, 2vw, 38px);
   font-weight: 400;
-  right: 21%;
-  bottom: 40px;
 }
-
 .main-banner__subtitle {
   position: absolute;
-  bottom: 250px;
-  font-size: 25px;
-  font-weight: 500;
-  letter-spacing: -0.02em;
+ bottom: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
   text-align: center;
-  top: 73%;
+  font-size: clamp(12px, 1.2vw, 22px);
+  font-weight: 400;
+  letter-spacing: -0.03em;
 }
+@media (min-width: 768px) {
+  .main-banner {
+    height: 800px; 
+  }
+
+  .Spring, .Summer {
+    font-size: 140px; 
+  }
+
+  .main-banner__subtitle {
+    font-size: 22px; 
+  }
+}
+
 /* ============================================
    서브 배너
    ============================================ */
