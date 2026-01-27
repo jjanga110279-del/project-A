@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url(my-reset.css);
-
+.fl{display:flex;}
+.fl-d-r{flex-direction: row !important;}
 /* ============================================
    초기화 및 기본 스타일
    ============================================ */
@@ -828,8 +829,9 @@ img {
 .footer__content {
   max-width: 1920px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   gap: 40px;
 }
 

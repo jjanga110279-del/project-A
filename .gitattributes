@@ -1,0 +1,10 @@
+# 모든 텍스트 파일은 Git이 자동으로 감지하고, 저장소에는 LF(Unix 스타일)로 통일합니다.
+* text=auto eol=lf
+
+# 아래 파일들은 명시적으로 텍스트 파일로 지정하고 LF 줄 바꿈을 사용합니다.
+*.js      eol=lf
+*.css     eol=lf
+*.html    eol=lf
+*.json    eol=lf
+*.md      eol=lf
+*.ignore  eol=lf
