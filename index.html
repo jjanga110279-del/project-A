@@ -247,28 +247,98 @@
 
 
       <!-- 시작을 완성하는 샵 -->
-      <section class="brand-shop">
-        <div class="brand-shop__header">
-          <h2 class="brand-shop__title">시작을 완성하는 샵</h2>
-          <p class="brand-shop__description">당신의 새로운 시작을 응원하며, 모든 변화의 순간을 함께하는 바이린샵이 되겠습니다.</p>
-        </div>
+ <section class="brand-shop">
+  <div class="brand-shop__header">
+    <h2 class="brand-shop__title">시작을 완성하는 샵</h2>
+    <p class="brand-shop__description">당신의 새로운 시작을 응원하며, 모든 변화의 순간을 함께하는 바이린샵이 되겠습니다.</p>
+  </div>
 
-        <div class="brand-shop__tabs">
-          <button class="brand-shop__tab brand-shop__tab--active" data-tab="all">All (85)</button>
-          <button class="brand-shop__tab" data-tab="lynn">린</button>
-          <button class="brand-shop__tab" data-tab="line">라인어디션</button>
-          <button class="brand-shop__tab" data-tab="kenneth">케네스레이디</button>
-          <button class="brand-shop__tab" data-tab="dear">디어케이</button>
-          <button class="brand-shop__tab" data-tab="studio">라인스튜디오원</button>
-          <button class="brand-shop__tab" data-tab="moe">모에</button>
-          <button class="brand-shop__tab" data-tab="miu">미우미우</button>
-        </div>
+  <div class="brand-shop__brands">
+    <div class="brand-item brand-item--active">
+      <div class="brand-item__logo-box">
+        <span class="brand-item__all-text">All</span>
+      </div>
+      <p class="brand-item__name">전체 (85)</p>
+    </div>
 
-        <div class="brand-shop__brands" id="brandShops">
-          <!-- 브랜드 로고는 JavaScript로 생성 -->
-        </div>
-      </section>
+    <div class="brand-item">
+      <div class="brand-item__logo-box">
+        <img src="logo_lynn.png" alt="린" class="brand-item__img">
+      </div>
+      <p class="brand-item__name">린</p>
+    </div>
 
+    <div class="brand-item">
+      <div class="brand-item__logo-box">
+        <img src="logo_line.png" alt="라인어디션" class="brand-item__img">
+      </div>
+      <p class="brand-item__name">라인어디션</p>
+    </div>
+
+    <div class="brand-item">
+      <div class="brand-item__logo-box">
+        <img src="logo_kenneth.png" alt="케네스레이디" class="brand-item__img">
+      </div>
+      <p class="brand-item__name">케네스레이디</p>
+    </div>
+
+    <div class="brand-item">
+      <div class="brand-item__logo-box">
+        <img src="logo_kl.png" alt="케이엘" class="brand-item__img">
+      </div>
+      <p class="brand-item__name">케이엘</p>
+    </div>
+
+    <div class="brand-item">
+      <div class="brand-item__logo-box">
+        <img src="logo_moe.png" alt="모에" class="brand-item__img">
+      </div>
+      <p class="brand-item__name">모에</p>
+    </div>
+
+    <div class="brand-item">
+      <div class="brand-item__logo-box">
+        <img src="logo_studio.png" alt="라인스튜디오원" class="brand-item__img">
+      </div>
+      <p class="brand-item__name">라인스튜디오원</p>
+    </div>
+
+    <div class="brand-item">
+      <div class="brand-item__logo-box">
+        <img src="logo_deark.png" alt="디어케이" class="brand-item__img">
+      </div>
+      <p class="brand-item__name">디어케이</p>
+    </div>
+
+    <div class="brand-item">
+      <div class="brand-item__logo-box">
+        <img src="logo_bottega.png" alt="보테가 베네타" class="brand-item__img">
+      </div>
+      <p class="brand-item__name">보테가 베네타</p>
+    </div>
+
+    <div class="brand-item">
+      <div class="brand-item__logo-box">
+        <img src="logo_dragon.png" alt="드래곤디퓨전" class="brand-item__img">
+      </div>
+      <p class="brand-item__name">드래곤디퓨전</p>
+    </div>
+
+    <div class="brand-item">
+      <div class="brand-item__logo-box">
+        <img src="logo_tods.png" alt="토즈" class="brand-item__img">
+      </div>
+      <p class="brand-item__name">토즈</p>
+    </div>
+
+    <div class="brand-item">
+      <div class="brand-item__logo-box">
+        <img src="logo_miumiu.png" alt="미우미우" class="brand-item__img">
+      </div>
+      <p class="brand-item__name">미우미우</p>
+    </div>
+  </div>
+</section> 
       <!-- 이번주 프로모션 -->
           <section class="promotion">
   <div class="promotion__header">
@@ -507,15 +577,85 @@
 
 
       <!-- 카테고리 -->
-      <section class="category">
+     <section class="category">
         <div class="category__header">
           <h2 class="category__title">카테고리별 제품 찾기</h2>
         </div>
-        <div class="category__grid" id="categoryGrid">
-          <!-- 카테고리는 JavaScript로 생성 -->
+        <div class="category__grid">
+          <div class="category-item">
+            <div class="category-item__circle">
+              <img src="coat.png" alt="코트" />
+              <div class="category-item__label">코트</div>
+            </div>
+          </div>
+          <div class="category-item">
+            <div class="category-item__circle">
+              <img src="padding.png" alt="패딩/다운" />
+              <div class="category-item__label">패딩·다운</div>
+            </div>
+          </div>
+          <div class="category-item">
+            <div class="category-item__circle">
+              <img src="tweed.png" alt="트위드" />
+              <div class="category-item__label">트위드</div>
+            </div>
+          </div>
+          <div class="category-item">
+            <div class="category-item__circle">
+              <img src="onepiece.png" alt="원피스" />
+              <div class="category-item__label">원피스</div>
+            </div>
+          </div>
+          <div class="category-item">
+            <div class="category-item__circle">
+              <img src="blouse.png" alt="블라우스" />
+              <div class="category-item__label">블라우스</div>
+            </div>
+          </div>
+          <div class="category-item">
+            <div class="category-item__circle">
+              <img src="knit.png" alt="니트" />
+              <div class="category-item__label">니트</div>
+            </div>
+          </div>
+          <div class="category-item">
+            <div class="category-item__circle">
+              <img src="skirt.png" alt="스커트" />
+              <div class="category-item__label">스커트</div>
+            </div>
+          </div>
+          <div class="category-item">
+            <div class="category-item__circle">
+              <img src="pants.png" alt="팬츠" />
+              <div class="category-item__label">팬츠</div>
+            </div>
+          </div>
+          <div class="category-item">
+            <div class="category-item__circle">
+              <img src="denim.png" alt="데님" />
+              <div class="category-item__label">데님</div>
+            </div>
+          </div>
+          <div class="category-item">
+            <div class="category-item__circle">
+              <img src="bag.png" alt="가방" />
+              <div class="category-item__label">가방</div>
+            </div>
+          </div>
+          <div class="category-item">
+            <div class="category-item__circle">
+              <img src="shoes.png" alt="신발" />
+              <div class="category-item__label">신발</div>
+            </div>
+          </div>
+          <div class="category-item">
+            <div class="category-item__circle">
+              <img src="swimwear.png" alt="스윔웨어" />
+              <div class="category-item__label">스윔웨어</div>
+            </div>
+          </div>
         </div>
       </section>
-
       <!-- 스타일 코디 -->
    <section class="style-coordination">
   <div class="style-coordination__header">
