@@ -53,7 +53,7 @@
         <div class="header__top">
           <div class="header__nav">
             <button class="header__menu-btn" id="menuBtn">
-              <img class="header__hamburger" src="images/hamburger.png" alt="Menu" width="24" height="25" />
+              <img class="header__hamburger" src="images/header/hamburger.png" alt="Menu" width="24" height="25" />
             </button>
 
             <div class="header__logo">
@@ -62,13 +62,13 @@
 
             <div class="header__icons">
               <button class="header__icon-btn" id="searchBtn">
-                <img src="images/search.png" alt="Search" width="20" height="20" />
+                <img src="images/header/search.png" alt="Search" width="20" height="20" />
               </button>
               <button class="header__icon-btn" id="profileBtn">
-                <img src="images/profile.png" alt="Profile" width="20" height="20" />
+                <img src="images/header/profile.png" alt="Profile" width="20" height="20" />
               </button>
               <button class="header__icon-btn" id="cartBtn">
-                <img src="images/cart.png" alt="Cart" width="20" height="20" />
+                <img src="images/header/cart.png" alt="Cart" width="20" height="20" />
               </button>
               <button class="header__register-btn">
                 <span>로그인</span>
@@ -100,127 +100,114 @@
       <section class="sub-banners">
         <div class="sub-banners__slider" id="subBannersSlider">
           <div class="sub-banners__slide">
-            <img src="images/Membership.png" alt="멤버십" />
+            <img src="images/sub/Membership.png" alt="멤버십" />
             <div class="sub-banners__overlay">멤버십 혜택안내</div>
           </div>
           <div class="sub-banners__slide">
-            <img src="images/Special Exhibition.png" alt="기획전" />
+            <img src="images/sub/Special Exhibition.png" alt="기획전" />
             <div class="sub-banners__overlay">기획전</div>
           </div>
           <div class="sub-banners__slide">
-            <img src="images/Best.png" alt="베스트" />
+            <img src="images/sub/Best.png" alt="베스트" />
             <div class="sub-banners__overlay">베스트 아이템</div>
           </div>
           <div class="sub-banners__slide">
-            <img src="images/Brand.png" alt="브랜드" />
+            <img src="images/sub/Brand.png" alt="브랜드" />
             <div class="sub-banners__overlay">브랜드</div>
           </div>
         </div>
       </section>
 
       <!-- 오늘의 업데이트 -->
-         <section class="today-update">
-  <div class="today-update__header">
-    <h2 class="today-update__title">오늘의 업데이트</h2>
-  </div>
+      <section class="today-update">
+        <div class="today-update__header">
+          <h2 class="today-update__title">오늘의 업데이트</h2>
+        </div>
 
-  <div class="today-update__container">
-    <div class="today-update__counter">
-      <div class="counter-box">
-        <span class="today-update__label">TODAY'S<br>NEW STYLE</span>
-        <span class="today-update__number">67</span>
-      </div>
-      <button class="today-update__btn">쇼핑하기 <span class="arrow">▶</span></button>
-    </div>
+        <div class="today-update__container">
+          <div class="today-update__counter">
+            <div class="counter-box">
+              <span class="today-update__label">TODAY'S<br />NEW STYLE</span>
+              <span class="today-update__number">132</span>
+              <button class="today-update__btn">쇼핑하기 <span class="ico-arrow">▶</span></button>
+            </div>
+          </div>
 
-    <div class="today-update__products" id="todayProductsSlider">
-      <article class="product-card">
-        <div class="product-card__image">
-          <img src="product1.jpg" alt="상품명">
-          <button class="product-card__like">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
-          </button>
+          <div class="today-update__products-wrapper">
+            <div class="today-update__products">
+              <article class="product-card">
+                <div class="product-card__image">
+                  <button class="product-card__like">♡</button>
+                  <img src="images/update/1.png" alt="상품 이미지" />
+                </div>
+                <div class="product-card__info">
+                  <strong class="product-card__brand">KL</strong>
+                  <p class="product-card__name">라운드 리버 탑</p>
+                  <div class="product-card__meta">♥ 1</div>
+                </div>
+              </article>
+
+              <article class="product-card">
+                <div class="product-card__image">
+                  <button class="product-card__like">♡</button>
+                  <img src="images/update/2.png" alt="상품 이미지" />
+                </div>
+                <div class="product-card__info">
+                  <strong class="product-card__brand">LINE ADDITION</strong>
+                  <p class="product-card__name">와이드 레그 팔라초 팬츠</p>
+                  <div class="product-card__meta">♥ 5</div>
+                </div>
+              </article>
+
+              <article class="product-card">
+                <div class="product-card__image">
+                  <button class="product-card__like">♡</button>
+                  <img src="images/update/3.png" alt="상품 이미지" />
+                </div>
+                <div class="product-card__info">
+                  <strong class="product-card__brand">LINE ADDITION</strong>
+                  <p class="product-card__name">그랑베리 캐주얼 루즈핏 바지 슬랙스</p>
+                  <div class="product-card__meta">♥ 5</div>
+                </div>
+              </article>
+
+              <article class="product-card">
+                <div class="product-card__image">
+                  <button class="product-card__like">♡</button>
+                  <img src="images/update/4.png" alt="상품 이미지" />
+                </div>
+                <div class="product-card__info">
+                  <strong class="product-card__brand">LINE ADDITION</strong>
+                  <p class="product-card__name">테일러드 투버튼 자켓</p>
+                  <div class="product-card__meta">♥ 1</div>
+                </div>
+              </article>
+
+              <article class="product-card">
+                <div class="product-card__image">
+                  <button class="product-card__like">♡</button>
+                  <img src="images/update/5.png" alt="상품 이미지" />
+                </div>
+                <div class="product-card__info">
+                  <strong class="product-card__brand">LINE ADDITION</strong>
+                  <p class="product-card__name">그랑베리 벨티드 자켓</p>
+                  <div class="product-card__meta">♥ 11</div>
+                </div>
+              </article>
+            </div>
+            <div class="today-update__divider"></div>
+          </div>
         </div>
-        <div class="product-card__info">
-          <span class="product-card__brand">KENNETH LADY</span>
-          <h3 class="product-card__name">그랜드 부츠컷 슬랙스</h3>
-          <div class="product-card__meta">❤️ 6</div>
-        </div>
-      </article>
-      </div>
-    <div class="today-update__products" id="todayProductsSlider">
-      <article class="product-card">
-        <div class="product-card__image">
-          <img src="product1.jpg" alt="상품명">
-          <button class="product-card__like">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
-          </button>
-        </div>
-        <div class="product-card__info">
-          <span class="product-card__brand">KENNETH LADY</span>
-          <h3 class="product-card__name">그랜드 부츠컷 슬랙스</h3>
-          <div class="product-card__meta">❤️ 6</div>
-        </div>
-      </article>
-      </div>
-    <div class="today-update__products" id="todayProductsSlider">
-      <article class="product-card">
-        <div class="product-card__image">
-          <img src="product1.jpg" alt="상품명">
-          <button class="product-card__like">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
-          </button>
-        </div>
-        <div class="product-card__info">
-          <span class="product-card__brand">KENNETH LADY</span>
-          <h3 class="product-card__name">그랜드 부츠컷 슬랙스</h3>
-          <div class="product-card__meta">❤️ 6</div>
-        </div>
-      </article>
-      </div>
-    <div class="today-update__products" id="todayProductsSlider">
-      <article class="product-card">
-        <div class="product-card__image">
-          <img src="product1.jpg" alt="상품명">
-          <button class="product-card__like">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
-          </button>
-        </div>
-        <div class="product-card__info">
-          <span class="product-card__brand">KENNETH LADY</span>
-          <h3 class="product-card__name">그랜드 부츠컷 슬랙스</h3>
-          <div class="product-card__meta">❤️ 6</div>
-        </div>
-      </article>
-      </div>
-  
-    <div class="today-update__products" id="todayProductsSlider">
-      <article class="product-card">
-        <div class="product-card__image">
-          <img src="product1.jpg" alt="상품명">
-          <button class="product-card__like">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
-          </button>
-        </div>
-        <div class="product-card__info">
-          <span class="product-card__brand">KENNETH LADY</span>
-          <h3 class="product-card__name">그랜드 부츠컷 슬랙스</h3>
-          <div class="product-card__meta">❤️ 6</div>
-        </div>
-      </article>
-      </div>
-  
-  </div>
-</section> 
+      </section>
 
       <!-- 요즘 트렌드 -->
-      <section class="trends">
+       <section class="trends">
   <div class="trends__header">
     <h2 class="trends__title">요즘 트렌드</h2>
   </div>
   <div class="trends__slider" id="trendsSlider">
     <article class="trend-card">
-      <img src="images/trend1.jpg.png" alt="MD 추천 코디">
+      <img src="images/trends/trend1.png" alt="MD 추천 코디">
       <div class="trend-card__content">
         <h3 class="trend-card__title">MD가 직접 입어봤어요!</h3>
         <p class="trend-card__subtitle">지금 입기 딱 좋은 라인 에디션과 케네스레이디의 의상</p>
@@ -228,551 +215,518 @@
     </article>
 
     <article class="trend-card">
-      <img src="images/trend2.jpg.png" alt="컬러 포인트 아이템">
+      <img src="images/trends/trend2.png" art="컬러 포인트 아이템">
       <div class="trend-card__content">
         <h3 class="trend-card__title">COLOR POINT ITEM</h3>
-        <p class="trend-card__subtitle">어두운 겨울 옷 사이 컬러 포인트</p>
+        <p class="trend-card__subtitle">  컬러 포인트</p>
       </div>
     </article>
 
     <article class="trend-card">
-      <img src="images/trend3.jpg.png" alt="25FW 컬렉션">
+      <img src="images/trends/trend3.png" alt="26SS 컬렉션">
       <div class="trend-card__content">
         <h3 class="trend-card__title">Move Me</h3>
-        <p class="trend-card__subtitle">25FW COLLECTION 2ND OPEN</p>
+        <p class="trend-card__subtitle">26S/S COLLECTION 2ND OPEN</p>
       </div>
     </article>
   </div>
 </section>
-
 
       <!-- 시작을 완성하는 샵 -->
- <section class="brand-shop">
-  <div class="brand-shop__header">
-    <h2 class="brand-shop__title">시작을 완성하는 샵</h2>
-    <p class="brand-shop__description">당신의 새로운 시작을 응원하며, 모든 변화의 순간을 함께하는 바이린샵이 되겠습니다.</p>
-  </div>
+      <section class="brand-shop">
+        <div class="brand-shop__header">
+          <h2 class="brand-shop__title">시작을 완성하는 샵</h2>
+          <p class="brand-shop__description">당신의 새로운 시작을 응원하며, 모든 변화의 순간을 함께하는 바이린샵이 되겠습니다.</p>
+        </div>
 
-  <div class="brand-shop__brands">
-    <div class="brand-item brand-item--active">
-      <div class="brand-item__logo-box">
-        <span class="brand-item__all-text">All</span>
-      </div>
-      <p class="brand-item__name">전체 (85)</p>
-    </div>
+        <div class="brand-shop__brands">
+          <div class="brand-item brand-item--active">
+            <div class="brand-item__logo-box">
+              <span class="brand-item__all-text">All</span>
+            </div>
+            <p class="brand-item__name">전체 (85)</p>
+          </div>
 
-    <div class="brand-item">
-      <div class="brand-item__logo-box">
-        <img src="logo_lynn.png" alt="린" class="brand-item__img">
-      </div>
-      <p class="brand-item__name">린</p>
-    </div>
+          <div class="brand-item">
+            <div class="brand-item__logo-box">
+              <img src="images/brand-shop/lynn.png" alt="린" class="brand-item__img" />
+            </div>
+            <p class="brand-item__name">린</p>
+          </div>
 
-    <div class="brand-item">
-      <div class="brand-item__logo-box">
-        <img src="logo_line.png" alt="라인어디션" class="brand-item__img">
-      </div>
-      <p class="brand-item__name">라인어디션</p>
-    </div>
+          <div class="brand-item">
+            <div class="brand-item__logo-box">
+              <img src="images/brand-shop/line.png" alt="라인어디션" class="brand-item__img" />
+            </div>
+            <p class="brand-item__name">라인어디션</p>
+          </div>
 
-    <div class="brand-item">
-      <div class="brand-item__logo-box">
-        <img src="logo_kenneth.png" alt="케네스레이디" class="brand-item__img">
-      </div>
-      <p class="brand-item__name">케네스레이디</p>
-    </div>
+          <div class="brand-item">
+            <div class="brand-item__logo-box">
+              <img src="images/brand-shop/kenneth lady.png" alt="케네스레이디" class="brand-item__img" />
+            </div>
+            <p class="brand-item__name">케네스레이디</p>
+          </div>
 
-    <div class="brand-item">
-      <div class="brand-item__logo-box">
-        <img src="logo_kl.png" alt="케이엘" class="brand-item__img">
-      </div>
-      <p class="brand-item__name">케이엘</p>
-    </div>
+          <div class="brand-item">
+            <div class="brand-item__logo-box">
+              <img src="images/brand-shop/kl.png" alt="케이엘" class="brand-item__img" />
+            </div>
+            <p class="brand-item__name">케이엘</p>
+          </div>
 
-    <div class="brand-item">
-      <div class="brand-item__logo-box">
-        <img src="logo_moe.png" alt="모에" class="brand-item__img">
-      </div>
-      <p class="brand-item__name">모에</p>
-    </div>
+          <div class="brand-item">
+            <div class="brand-item__logo-box">
+              <img src="images/brand-shop/moe.png" alt="모에" class="brand-item__img" />
+            </div>
+            <p class="brand-item__name">모에</p>
+          </div>
 
-    <div class="brand-item">
-      <div class="brand-item__logo-box">
-        <img src="logo_studio.png" alt="라인스튜디오원" class="brand-item__img">
-      </div>
-      <p class="brand-item__name">라인스튜디오원</p>
-    </div>
+          <div class="brand-item">
 
-    <div class="brand-item">
-      <div class="brand-item__logo-box">
-        <img src="logo_deark.png" alt="디어케이" class="brand-item__img">
-      </div>
-      <p class="brand-item__name">디어케이</p>
-    </div>
+            <div class="brand-item__logo-box">
+              <img src="images/brand-shop/line studio.png" alt="라인스튜디오원" class="brand-item__img" />
+            </div>
+            <p class="brand-item__name">라인스튜디오원</p>
+          </div>
 
-    <div class="brand-item">
-      <div class="brand-item__logo-box">
-        <img src="logo_bottega.png" alt="보테가 베네타" class="brand-item__img">
-      </div>
-      <p class="brand-item__name">보테가 베네타</p>
-    </div>
+          <div class="brand-item">
+            <div class="brand-item__logo-box">
+              <img src="images/brand-shop/dk.png" alt="디어케이" class="brand-item__img" />
+            </div>
+            <p class="brand-item__name">디어케이</p>
+          </div>
 
-    <div class="brand-item">
-      <div class="brand-item__logo-box">
-        <img src="logo_dragon.png" alt="드래곤디퓨전" class="brand-item__img">
-      </div>
-      <p class="brand-item__name">드래곤디퓨전</p>
-    </div>
+          <div class="brand-item">
+            <div class="brand-item__logo-box">
+              <img src="images/brand-shop/bottega.png" alt="보테가 베네타" class="brand-item__img" />
+            </div>
+            <p class="brand-item__name">보테가 베네타</p>
+          </div>
 
-    <div class="brand-item">
-      <div class="brand-item__logo-box">
-        <img src="logo_tods.png" alt="토즈" class="brand-item__img">
-      </div>
-      <p class="brand-item__name">토즈</p>
-    </div>
+          <div class="brand-item">
+            <div class="brand-item__logo-box">
+              <img src="images/brand-shop/dragon.png" alt="드래곤디퓨전" class="brand-item__img" />
+            </div>
+            <p class="brand-item__name">드래곤디퓨전</p>
+          </div>
 
-    <div class="brand-item">
-      <div class="brand-item__logo-box">
-        <img src="logo_miumiu.png" alt="미우미우" class="brand-item__img">
-      </div>
-      <p class="brand-item__name">미우미우</p>
-    </div>
-  </div>
-</section> 
+          <div class="brand-item">
+            <div class="brand-item__logo-box">
+              <img src="images/brand-shop/miu miu.png" alt="토즈" class="brand-item__img" />
+            </div>
+            <p class="brand-item__name">토즈</p>
+          </div>
+
+          <div class="brand-item">
+            <div class="brand-item__logo-box">
+              <img src="images/brand-shop/tods.png" alt="미우미우" class="brand-item__img" />
+            </div>
+            <p class="brand-item__name">미우미우</p>
+          </div>
+        </div>
+      </section>
       <!-- 이번주 프로모션 -->
-          <section class="promotion">
-  <div class="promotion__header">
-    <h2 class="promotion__title">이번주 프로모션</h2>
-  </div>
-  
-  <div class="promotion__container">
-    
-    <div class="promotion-column">
-      <div class="promotion-featured">
-        <img src="banner1.jpg" alt="린 BRAND WEEK">
-        <div class="promotion-featured__content">
-          <h3 class="promotion-featured__title">린 BRAND WEEK</h3>
-          <p class="promotion-featured__subtitle">일상과 오피스를 채우는 세련된 윈터룩</p>
+      <section class="promotion">
+        <div class="promotion__header">
+          <h2 class="promotion__title">이번주 프로모션</h2>
         </div>
-      </div>
-      <div class="promotion-sub-list">
-        <div class="sub-item">
-          <img src="sub1_1.jpg" alt="상품">
-          <div class="sub-item__info">
-            <p class="sub-item__brand">LYNN</p>
-            <p class="sub-item__name">로엘 핸드메이드 자켓</p>
-            <p class="sub-item__price">135,000 <span class="discount">65%</span></p>
-          </div>
-        </div>
-        <div class="sub-item">
-          <img src="sub1_2.jpg" alt="상품">
-          <div class="sub-item__info">
-            <p class="sub-item__brand">LYNN</p>
-            <p class="sub-item__name">메르비 원버튼 자켓</p>
-            <p class="sub-item__price">119,000 <span class="discount">60%</span></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="promotion-column">
-      <div class="promotion-featured">
-        <img src="banner1.jpg" alt="린 BRAND WEEK">
-        <div class="promotion-featured__content">
-          <h3 class="promotion-featured__title">린 BRAND WEEK</h3>
-          <p class="promotion-featured__subtitle">일상과 오피스를 채우는 세련된 윈터룩</p>
-        </div>
-      </div>
-      <div class="promotion-sub-list">
-        <div class="sub-item">
-          <img src="sub1_1.jpg" alt="상품">
-          <div class="sub-item__info">
-            <p class="sub-item__brand">LYNN</p>
-            <p class="sub-item__name">로엘 핸드메이드 자켓</p>
-            <p class="sub-item__price">135,000 <span class="discount">65%</span></p>
-          </div>
-        </div>
-        <div class="sub-item">
-          <img src="sub1_2.jpg" alt="상품">
-          <div class="sub-item__info">
-            <p class="sub-item__brand">LYNN</p>
-            <p class="sub-item__name">메르비 원버튼 자켓</p>
-            <p class="sub-item__price">119,000 <span class="discount">60%</span></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="promotion-column">
-      <div class="promotion-featured">
-        <img src="banner1.jpg" alt="린 BRAND WEEK">
-        <div class="promotion-featured__content">
-          <h3 class="promotion-featured__title">린 BRAND WEEK</h3>
-          <p class="promotion-featured__subtitle">일상과 오피스를 채우는 세련된 윈터룩</p>
-        </div>
-      </div>
-      <div class="promotion-sub-list">
-        <div class="sub-item">
-          <img src="sub1_1.jpg" alt="상품">
-          <div class="sub-item__info">
-            <p class="sub-item__brand">LYNN</p>
-            <p class="sub-item__name">로엘 핸드메이드 자켓</p>
-            <p class="sub-item__price">135,000 <span class="discount">65%</span></p>
-          </div>
-        </div>
-        <div class="sub-item">
-          <img src="sub1_2.jpg" alt="상품">
-          <div class="sub-item__info">
-            <p class="sub-item__brand">LYNN</p>
-            <p class="sub-item__name">메르비 원버튼 자켓</p>
-            <p class="sub-item__price">119,000 <span class="discount">60%</span></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="promotion-column">
-      <div class="promotion-featured">
-        <img src="banner1.jpg" alt="린 BRAND WEEK">
-        <div class="promotion-featured__content">
-          <h3 class="promotion-featured__title">린 BRAND WEEK</h3>
-          <p class="promotion-featured__subtitle">일상과 오피스를 채우는 세련된 윈터룩</p>
-        </div>
-      </div>
-      <div class="promotion-sub-list">
-        <div class="sub-item">
-          <img src="sub1_1.jpg" alt="상품">
-          <div class="sub-item__info">
-            <p class="sub-item__brand">LYNN</p>
-            <p class="sub-item__name">로엘 핸드메이드 자켓</p>
-            <p class="sub-item__price">135,000 <span class="discount">65%</span></p>
-          </div>
-        </div>
-        <div class="sub-item">
-          <img src="sub1_2.jpg" alt="상품">
-          <div class="sub-item__info">
-            <p class="sub-item__brand">LYNN</p>
-            <p class="sub-item__name">메르비 원버튼 자켓</p>
-            <p class="sub-item__price">119,000 <span class="discount">60%</span></p>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    </div>
-</section>
+        <div class="promotion__container">
+          <div class="promotion-column">
+            <div class="promotion-featured">
+              <img src="images/promotion/1.png" alt="린 BRAND WEEK" />
+              <div class="promotion-featured__content">
+                <h3 class="promotion-featured__title">린 BRAND WEEK</h3>
+                <p class="promotion-featured__subtitle">일상과 오피스를 채우는 세련된 윈터룩</p>
+              </div>
+            </div>
+            <div class="promotion-sub-list">
+              <div class="sub-item">
+                <img src="images/promotion/1-1.png" alt="상품" />
+                <div class="sub-item__info">
+                  <p class="sub-item__brand">LINE ADDITION</p>
+                  <p class="sub-item__name">피프티 원피스</p>
+                  <p class="sub-item__price">359,0000 <span class="discount">65%</span></p>
+                </div>
+              </div>
+              <div class="sub-item">
+                <img src="images/promotion/1-2.png" alt="상품" />
+                <div class="sub-item__info">
+                  <p class="sub-item__brand">LINE ADDITION</p>
+                  <p class="sub-item__name">골든 트위드 자켓 </p>
+                  <p class="sub-item__price">297,000 <span class="discount">60%</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="promotion-column">
+            <div class="promotion-featured">
+              <img src="images/promotion/2.png" alt="KENNETH LADY BRAND WEEK" />
+              <div class="promotion-featured__content">
+                <h3 class="promotion-featured__title">케네스레이디 BRAND WEEK</h3>
+                <p class="promotion-featured__subtitle">재치 있는 감각으로 순수함을 담은 룩</p>
+              </div>
+            </div>
+            <div class="promotion-sub-list">
+              <div class="sub-item">
+                <img src="images/promotion/2-1.png" alt="상품" />
+                <div class="sub-item__info">
+                  <p class="sub-item__brand">LYNN</p>
+                  <p class="sub-item__name">프시코 와이드 슬랙스</p>
+                  <p class="sub-item__price">199,000<span class="discount">65%</span></p>
+                </div>
+              </div>
+              <div class="sub-item">
+                <img src="images/promotion/2-2.png" alt="상품" />
+                <div class="sub-item__info">
+                  <p class="sub-item__brand">LYNN</p>
+                  <p class="sub-item__name">카라 배색 버튼 가디건</p>
+                  <p class="sub-item__price">119,000 <span class="discount">60%</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="promotion-column">
+            <div class="promotion-featured">
+              <img src="images/promotion/3.png" alt="LINE BRAND WEEK" />
+              <div class="promotion-featured__content">
+                <h3 class="promotion-featured__title">라인어디션 BRAND WEEK</h3>
+                <p class="promotion-featured__subtitle"> 클래식한 아름다움을 완성하는 룩</p>
+              </div>
+            </div>
+            <div class="promotion-sub-list">
+              <div class="sub-item">
+                <img src="images/promotion/3-1.png" alt="상품" />
+                <div class="sub-item__info">
+                  <p class="sub-item__brand">LINE ADDITION</p>
+                  <p class="sub-item__name">데님 셔링 집업</p>
+                  <p class="sub-item__price">267,000 <span class="discount">65%</span></p>
+                </div>
+              </div>
+              <div class="sub-item">
+                <img src="images/promotion/3-2.png" alt="상품" />
+                <div class="sub-item__info">
+                  <p class="sub-item__brand">LINE ADDITION</p>
+                  <p class="sub-item__name">라인 스티치 자켓</p>
+                  <p class="sub-item__price">354,000<span class="discount">60%</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="promotion-column">
+            <div class="promotion-featured">
+              <img src="images/promotion/4.png" alt="kl BRAND WEEK" />
+              <div class="promotion-featured__content">
+                <h3 class="promotion-featured__title">케이엘 BRAND WEEK</h3>
+                <p class="promotion-featured__subtitle">지적인 절제미를 담은 소프트 룩</p>
+              </div>
+            </div>
+            <div class="promotion-sub-list">
+              <div class="sub-item">
+                <img src="images/promotion/4-1.png" alt="상품" />
+                <div class="sub-item__info">
+                  <p class="sub-item__brand">KENNETH LADY</p>
+                  <p class="sub-item__name">바니샤 스커트
+                  <p class="sub-item__price">135,000 <span class="discount">65%</span></p>
+                </div>
+              </div>
+              <div class="sub-item">
+                <img src="images/promotion/4-2.png" alt="상품" />
+                <div class="sub-item__info">
+                  <p class="sub-item__brand">KENNETH LADY</p>
+                  <p class="sub-item__name">메르비 S/T NB
+                  <p class="sub-item__price">119,000 <span class="discount">60%</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- 브랜드 추천 상품 -->
-       <section class="brand-products">
-  <div class="brand-products__header">
-    <h2 class="brand-products__title">브랜드 추천 상품</h2>
-  </div>
-  
-  <div class="brand-products__grid" id="brandProductsGrid">
-    
-    <article class="product-card">
-      <div class="product-card__image-wrap">
-        <img src="prod1.jpg" alt="상품1" class="product-card__img">
-        <button class="product-card__wish">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
-        </button>
-      </div>
-      <div class="product-card__info">
-        <span class="product-card__brand">LINE ADDITION</span>
-        <h3 class="product-card__name">트렌 벨티드 롱코트</h3>
-        <span class="product-card__price">679,000</span>
-      </div>
-    </article>
+      <section class="brand-products">
+        <div class="brand-products__header">
+          <h2 class="brand-products__title">브랜드 추천 상품</h2>
+        </div>
 
-    <article class="product-card">
-      <div class="product-card__image-wrap">
-        <img src="prod2.jpg" alt="상품2" class="product-card__img">
-        <button class="product-card__wish">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
-        </button>
-      </div>
-      <div class="product-card__info">
-        <span class="product-card__brand">LINE ADDITION</span>
-        <h3 class="product-card__name">트렌 벨티드 롱코트</h3>
-        <span class="product-card__price">679,000</span>
-      </div>
-    </article>
-    <article class="product-card">
-      <div class="product-card__image-wrap">
-        <img src="prod2.jpg" alt="상품3" class="product-card__img">
-        <button class="product-card__wish">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
-        </button>
-      </div>
-      <div class="product-card__info">
-        <span class="product-card__brand">LINE ADDITION</span>
-        <h3 class="product-card__name">트렌 벨티드 롱코트</h3>
-        <span class="product-card__price">679,000</span>
-      </div>
-    </article>
-    <article class="product-card">
-      <div class="product-card__image-wrap">
-        <img src="prod2.jpg" alt="상품4" class="product-card__img">
-        <button class="product-card__wish">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
-        </button>
-      </div>
-      <div class="product-card__info">
-        <span class="product-card__brand">LINE ADDITION</span>
-        <h3 class="product-card__name">트렌 벨티드 롱코트</h3>
-        <span class="product-card__price">679,000</span>
-      </div>
-    </article>
-    <article class="product-card">
-      <div class="product-card__image-wrap">
-        <img src="prod2.jpg" alt="상품5" class="product-card__img">
-        <button class="product-card__wish">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
-        </button>
-      </div>
-      <div class="product-card__info">
-        <span class="product-card__brand">LINE ADDITION</span>
-        <h3 class="product-card__name">트렌 벨티드 롱코트</h3>
-        <span class="product-card__price">679,000</span>
-      </div>
-    </article>
-    <article class="product-card">
-      <div class="product-card__image-wrap">
-        <img src="prod2.jpg" alt="상품6" class="product-card__img">
-        <button class="product-card__wish">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
-        </button>
-      </div>
-      <div class="product-card__info">
-        <span class="product-card__brand">LINE ADDITION</span>
-        <h3 class="product-card__name">트렌 벨티드 롱코트</h3>
-        <span class="product-card__price">679,000</span>
-      </div>
-    </article>
-    <article class="product-card">
-      <div class="product-card__image-wrap">
-        <img src="prod2.jpg" alt="상품7" class="product-card__img">
-        <button class="product-card__wish">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
-        </button>
-      </div>
-      <div class="product-card__info">
-        <span class="product-card__brand">LINE ADDITION</span>
-        <h3 class="product-card__name">트렌 벨티드 롱코트</h3>
-        <span class="product-card__price">679,000</span>
-      </div>
-    </article>
-    <article class="product-card">
-      <div class="product-card__image-wrap">
-        <img src="prod2.jpg" alt="상품8" class="product-card__img">
-        <button class="product-card__wish">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
-        </button>
-      </div>
-      <div class="product-card__info">
-        <span class="product-card__brand">LINE ADDITION</span>
-        <h3 class="product-card__name">트렌 벨티드 롱코트</h3>
-        <span class="product-card__price">679,000</span>
-      </div>
-    </article>
+        <div class="brand-products__grid" id="brandProductsGrid">
+          <article class="product-card">
+            <div class="product-card__image-wrap">
+              <img src="images/brand-prod/1.png" alt="상품1" class="product-card__img" />
+              <button class="product-card__wish">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" /></svg>
+              </button>
+            </div>
+            <div class="product-card__info">
+              <span class="product-card__brand">LINE ADDITION</span>
+              <h3 class="product-card__name">배색 레이어 가디건</h3>
+              <span class="product-card__price">129,000</span>
+            </div>
+          </article>
 
-    </div>
-</section>
-
+          <article class="product-card">
+            <div class="product-card__image-wrap">
+              <img src="images/brand-prod/2.png" alt="상품2" class="product-card__img" />
+              <button class="product-card__wish">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" /></svg>
+              </button>
+            </div>
+            <div class="product-card__info">
+              <span class="product-card__brand">KENNETH LADY</span>
+              <h3 class="product-card__name">페플럼 가디건</h3>
+              <span class="product-card__price">157,400</span>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card__image-wrap">
+              <img src="images/brand-prod/3.png" alt="상품3" class="product-card__img" />
+              <button class="product-card__wish">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" /></svg>
+              </button>
+            </div>
+            <div class="product-card__info">
+              <span class="product-card__brand">LINE ADDITION</span>
+              <h3 class="product-card__name">트렌 벨티드 롱코트</h3>
+              <span class="product-card__price">679,000</span>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card__image-wrap">
+              <img src="images/brand-prod/4.png" alt="상품4" class="product-card__img" />
+              <button class="product-card__wish">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" /></svg>
+              </button>
+            </div>
+            <div class="product-card__info">
+              <span class="product-card__brand">KENNETH LADY</span>
+              <h3 class="product-card__name">더블 버튼 롱코트</h3>
+              <span class="product-card__price">497,000</span>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card__image-wrap">
+              <img src="images/brand-prod/5.png" alt="상품5" class="product-card__img" />
+              <button class="product-card__wish">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" /></svg>
+              </button>
+            </div>
+            <div class="product-card__info">
+              <span class="product-card__brand">MOE</span>
+              <h3 class="product-card__name">반넥 라인 블라우스</h3>
+              <span class="product-card__price">189,000</span>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card__image-wrap">
+              <img src="images/brand-prod/6.png" alt="상품6" class="product-card__img" />
+              <button class="product-card__wish">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" /></svg>
+              </button>
+            </div>
+            <div class="product-card__info">
+              <span class="product-card__brand">LINE ADDITION</span>
+              <h3 class="product-card__name">모던 리본타이 블라우스</h3>
+              <span class="product-card__price">219,000</span>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card__image-wrap">
+              <img src="images/brand-prod/7.png" alt="상품7" class="product-card__img" />
+              <button class="product-card__wish">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" /></svg>
+              </button>
+            </div>
+            <div class="product-card__info">
+              <span class="product-card__brand">MOE</span>
+              <h3 class="product-card__name">하이넥 스트링 점퍼</h3>
+              <span class="product-card__price">359,000</span>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card__image-wrap">
+              <img src="images/brand-prod/8.png" alt="상품8" class="product-card__img" />
+              <button class="product-card__wish">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" /></svg>
+              </button>
+            </div>
+            <div class="product-card__info">
+              <span class="product-card__brand">MOE</span>
+              <h3 class="product-card__name">카프텔 셔링점퍼</h3>
+              <span class="product-card__price">598,000</span>
+            </div>
+          </article>
+        </div>
+      </section>
 
       <!-- 브랜드 신상품 -->
-       <section class="brand-new">
-  <div class="brand-new__header">
-    <h2 class="brand-new__title">브랜드 신상품</h2>
-  </div>
-
-  <div class="brand-new__container">
-    <div class="brand-new__slider">
-      <article class="brand-new__item">
-        <div class="brand-new__image">
-          <img src="product1.jpg" alt="MAX MARA">
+      <section class="brand-new">
+        <div class="brand-new__header">
+          <h2 class="brand-new__title">브랜드 신상품</h2>
         </div>
-        <div class="brand-new__info">
-          <p class="brand-new__brand">MAX MARA</p>
-          <h3 class="brand-new__name">절제된 우아함의 상징</h3>
-          <p class="brand-new__tag">TIMELESS CLASSIC</p>
-        </div>
-      </article>
 
-      <article class="brand-new__item brand-new__item--main">
-        <div class="brand-new__image">
-          <img src="product_main.jpg" alt="UGG">
-          <div class="brand-new__overlay">
-            <p class="overlay__brand">UGG</p>
-            <p class="overlay__text">UGG만의 포근한 감성과<br>편안한 스타일을 느껴보세요.</p>
-            <a href="#" class="overlay__link">shop now</a>
+        <div class="brand-new__container">
+          <div class="brand-new__slider">
+            <article class="brand-new__item">
+              <div class="brand-new__image">
+                <img src="images/brand new/max mara.jpg" alt="MAX MARA" />
+              </div>
+              <div class="brand-new__info">
+                <p class="brand-new__brand">MAX MARA</p>
+                <h3 class="brand-new__name">절제된 우아함의 상징</h3>
+                <p class="brand-new__tag">TIMELESS CLASSIC</p>
+              </div>
+            </article>
+
+            <article class="brand-new__item brand-new__item--main">
+              <div class="brand-new__image">
+                <img src="images/brand new/miu miu.jpg" alt="UGG" />
+                <div class="brand-new__overlay">
+                  <p class="overlay__brand">MIU MIU</p>
+                  <p class="overlay__text">미우치아 프러다가 선보니는<br />현대적인 페미니티 무스</p>
+                  <a href="#" class="overlay__link">shop now </a>
+                </div>
+              </div>
+              <div class="brand-new__info">
+                <p class="brand-new__brand">MIU MIU</p>
+                <h3 class="brand-new__name">Contemporary Femininity</h3>
+                <p class="brand-new__tag">New Collection</p>
+              </div>
+            </article>
+
+            <article class="brand-new__item">
+              <div class="brand-new__image">
+                <img src="images/brand new/JACQUEMUS.jpg" alt="JACQUEMUS" />
+              </div>
+              <div class="brand-new__info">
+                <p class="brand-new__brand">JACQUEMUS</p>
+                <h3 class="brand-new__name">Les Sculptures</h3>
+                <p class="brand-new__tag">NEW COLLECTION</p>
+              </div>
+            </article>
           </div>
         </div>
-        <div class="brand-new__info">
-          <p class="brand-new__brand">UGG</p>
-          <h3 class="brand-new__name">겨울 필수 아이템</h3>
-          <p class="brand-new__tag">BOOT ITEMS</p>
-        </div>
-      </article>
-
-      <article class="brand-new__item">
-        <div class="brand-new__image">
-          <img src="product2.jpg" alt="JACQUEMUS">
-        </div>
-        <div class="brand-new__info">
-          <p class="brand-new__brand">JACQUEMUS</p>
-          <h3 class="brand-new__name">Les Sculptures</h3>
-          <p class="brand-new__tag">NEW COLLECTION</p>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
+      </section>
 
       <!-- 카테고리 -->
-     <section class="category">
+      <section class="category">
         <div class="category__header">
           <h2 class="category__title">카테고리별 제품 찾기</h2>
         </div>
         <div class="category__grid">
           <div class="category-item">
             <div class="category-item__circle">
-              <img src="images/category-coat.png" alt="코트" />
+              <img src="images/category/coat.png" alt="코트" />
               <div class="category-item__label">코트</div>
             </div>
           </div>
           <div class="category-item">
             <div class="category-item__circle">
-              <img src="images/category-padding.png" alt="패딩/다운" />
-              <div class="category-item__label">패딩·다운</div>
+              <img src="images/category/padding.png" alt="패딩/점퍼" />
+              <div class="category-item__label">패딩/점퍼</div>
             </div>
           </div>
           <div class="category-item">
             <div class="category-item__circle">
-              <img src="tweed.png" alt="트위드" />
+              <img src="images/category/tweed.png" alt="트위드" />
               <div class="category-item__label">트위드</div>
             </div>
           </div>
           <div class="category-item">
             <div class="category-item__circle">
-              <img src="images/category-onepiece.png" alt="원피스" />
+              <img src="images/category/onepiece.png" alt="원피스" />
               <div class="category-item__label">원피스</div>
             </div>
           </div>
           <div class="category-item">
             <div class="category-item__circle">
-              <img src="images/category-blouse.png" alt="블라우스" />
+              <img src="images/category/blouse.png" alt="블라우스" />
               <div class="category-item__label">블라우스</div>
             </div>
           </div>
           <div class="category-item">
             <div class="category-item__circle">
-              <img src="knit.png" alt="니트" />
+              <img src="images/category/kint.png" alt="니트" />
               <div class="category-item__label">니트</div>
             </div>
           </div>
           <div class="category-item">
             <div class="category-item__circle">
-              <img src="images/category-skirt.png" alt="스커트" />
+              <img src="images/category/skirt.png" alt="스커트" />
               <div class="category-item__label">스커트</div>
             </div>
           </div>
           <div class="category-item">
             <div class="category-item__circle">
-              <img src="images/category-pants.png" alt="팬츠" />
+              <img src="images/category/pants.png" alt="팬츠" />
               <div class="category-item__label">팬츠</div>
             </div>
           </div>
           <div class="category-item">
-            <div class="category-item__circle">e
-              <img src="images/category-denim.png" alt="데님" />
+            <div class="category-item__circle">
+              <img src="images/category/denim.png" alt="데님" />
               <div class="category-item__label">데님</div>
             </div>
           </div>
           <div class="category-item">
             <div class="category-item__circle">
-              <img src="bag.png" alt="가방" />
+              <img src="images/category/bag.png" alt="가방" />
               <div class="category-item__label">가방</div>
             </div>
           </div>
           <div class="category-item">
             <div class="category-item__circle">
-              <img src="shoes.png" alt="신발" />
+              <img src="images/category/shoes.png" alt="신발" />
               <div class="category-item__label">신발</div>
             </div>
           </div>
           <div class="category-item">
             <div class="category-item__circle">
-              <img src="swimwear.png" alt="스윔웨어" />
+              <img src="images/category/swimwear.png" alt="스윔웨어" />
               <div class="category-item__label">스윔웨어</div>
             </div>
           </div>
         </div>
       </section>
       <!-- 스타일 코디 -->
-   <section class="style-coordination">
-  <div class="style-coordination__header">
-    <h2 class="style-coordination__title">스타일 코디</h2>
+       <div class="style-coordi">
+  <h2 class="title">스타일 코디</h2>
+  
+  <div class="coordi-container">
+    <div class="coordi-column">
+      <div class="item">
+        <div class="img-box ratio-long"><img src="images/style-codi/Thom Browne.jpg" alt=""></div>
+        <div class="text-box"><h3>주목 받는 해외 브랜드</h3><p>THOM BROWNE</p></div>
+      </div>
+      <div class="item">
+        <div class="img-box ratio-short"><img src="images/style-codi/4.png" alt=""></div>
+        <div class="text-box"><h3>금주 골프웨어 추천!</h3><p>요즘 입기 좋은 힙한 골프웨어</p></div>
+      </div>
+    </div>
+
+    <div class="coordi-column center-col">
+      <div class="item">
+        <div class="img-box ratio-short"><img src="images/style-codi/2.png" alt=""></div>
+        <div class="text-box"><h3>바이린샵 with 인플루언서</h3><p>인플루언서가 PICK한 아이템</p></div>
+      </div>
+      <div class="item">
+        <div class="img-box ratio-long"><img src="images/style-codi/5.jpg" alt=""></div>
+        <div class="text-box"><h3>새해 운동 다짐 필수템</h3><p>바이린샵이 추춘하는 프리미엄 애스레저룩</p></div>
+      </div>
+    </div>
+
+    <div class="coordi-column">
+      <div class="item">
+        <div class="img-box ratio-long"><img src="images/style-codi/3.jpg" alt=""></div>
+        <div class="text-box"><h3>오늘은 또 뭐 입지?</h3><p>출근룩, 하객룩, 데이트룩 한 번에 해결!</p></div>
+      </div>
+      <div class="item">
+        <div class="img-box ratio-short"><img src="images/style-codi/6.jpg" alt=""></div>
+        <div class="text-box"><h3>SURFEA 스윔&라이프웨어 브랜드</h3><p>자유로운 라이프스타일을 완성하는 아이템</p></div>
+      </div>
+    </div>
   </div>
-  <div class="style-coordination__grid" id="styleGrid">
-    <article class="codi-card codi-card--tall">
-      <div class="codi-card__image">
-        <img src="style1.jpg" alt="주목 받는 해외 브랜드">
-      </div>
-      <div class="codi-card__content">
-        <h3 class="codi-card__title">주목 받는 해외 브랜드</h3>
-        <p class="codi-card__subtitle">THOM BROWNE</p>
-      </div>
-    </article>
-
-    <article class="codi-card">
-      <div class="codi-card__image">
-        <img src="style2.jpg" alt="바이린샵 with 인플루언서">
-      </div>
-      <div class="codi-card__content">
-        <h3 class="codi-card__title">바이린샵 with 인플루언서</h3>
-        <p class="codi-card__subtitle">인플루언서가 PICK한 아이템</p>
-      </div>
-    </article>
-
-    <article class="codi-card codi-card--extra-tall">
-      <div class="codi-card__image">
-        <img src="style3.jpg" alt="MD가 직접 입어봤어요!">
-      </div>
-      <div class="codi-card__content">
-        <h3 class="codi-card__title">MD가 직접 입어봤어요!</h3>
-        <p class="codi-card__subtitle">지금 입기 딱 좋은 라인에디션과 케네스레이디의 아우터</p>
-      </div>
-    </article>
-
-    <article class="codi-card">
-      <div class="codi-card__image">
-        <img src="style4.jpg" alt="금주 골프웨어 추천!">
-      </div>
-      <div class="codi-card__content">
-        <h3 class="codi-card__title">금주 골프웨어 추천!</h3>
-        <p class="codi-card__subtitle">요즘 입기 좋은 아우터</p>
-      </div>
-    </article>
-
-    <article class="codi-card codi-card--medium">
-      <div class="codi-card__image">
-        <img src="style5.jpg" alt="스타일링 완성템">
-      </div>
-      <div class="codi-card__content">
-        <h3 class="codi-card__title">스타일링 완성템</h3>
-        <p class="codi-card__subtitle">프리미엄 브랜드 부츠</p>
-      </div>
-    </article>
-
-    <article class="codi-card">
-      <div class="codi-card__image">
-        <img src="style6.jpg" alt="SURFEA 25FW 업데이트">
-      </div>
-      <div class="codi-card__content">
-        <h3 class="codi-card__title">SURFEA 25FW 업데이트</h3>
-        <p class="codi-card__subtitle">매일 손이 가는 데일리웨어</p>
-      </div>
-    </article>
-  </div>
-</section>
-      <!-- 공지사항 -->
+</div>
+ <!-- 공지사항 -->
       <section class="notice">
         <div class="notice__header">
           <h2 class="notice__title">공지사항</h2>
@@ -804,15 +758,15 @@
             <a href="#" class="footer__link">멤버십혜택안내</a>
           </div>
 
-          <div class="footer__sns fl ">
+          <div class="footer__sns fl">
             <div class="fl">
-              <a href="#" class="footer__sns-link"><img src="images/google-icon.png" alt="Google" width="24" height="24" /></a>
-              <a href="#" class="footer__sns-link"><img src="images/apple-icon-bl.png" alt="Apple" width="24" height="24" /></a>
+              <a href="#" class="footer__sns-link"><img src="images/footer/google.png" alt="Google" width="24" height="24" /></a>
+              <a href="#" class="footer__sns-link"><img src="images/footer/apple-bl.png" alt="Apple" width="24" height="24" /></a>
             </div>
             <div class="fl">
-              <a href="#" class="footer__sns-link"><img src="images/naver-icon-gr.png" alt="Naver" width="24" height="24" /></a>
-              <a href="#" class="footer__sns-link"><img src="images/youtube-icon-rd.png" alt="YouTube" width="24" height="24" /></a>
-              <a href="#" class="footer__sns-link"><img src="images/instagram-icon-3d.png" alt="Instagram" width="24" height="24" /></a>
+              <a href="#" class="footer__sns-link"><img src="images/footer/naver.png" alt="Naver" width="24" height="24" /></a>
+              <a href="#" class="footer__sns-link"><img src="images/footer/YouTube-rd.png" alt="YouTube" width="24" height="24" /></a>
+              <a href="#" class="footer__sns-link"><img src="images/footer/instagram-3d.png" alt="Instagram" width="24" height="24" /></a>
             </div>
           </div>
         </div>
