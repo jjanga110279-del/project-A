@@ -159,7 +159,7 @@ img {
 .year {
   position: absolute;
   top: 21%;
-  left: 30%;
+  left: 29%;
   font-size: clamp(14px, 2vw, 40px);
   font-weight: 300;
 }
@@ -174,7 +174,7 @@ img {
 .for-yoy {
   position: absolute;
   top: 75%;
-  right: 25%;
+  right: 23%;
   font-size: clamp(14px, 2vw, 38px);
   font-weight: 400;
 }
@@ -937,7 +937,6 @@ img {
    ============================================ */
 .notice {
   padding: 60px 18px;
-  border-top: 1px solid #eee;
   background: #fff;
 }
 .notice__header {
@@ -953,8 +952,7 @@ img {
   margin: 0 auto;
   padding: 20px 0;
   border-top: 2px solid #333;
-  border-bottom: 1px solid #eee;
-}
+ }
 .notice__item {
   display: flex;
   justify-content: space-between;
