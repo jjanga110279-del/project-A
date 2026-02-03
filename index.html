@@ -2,8 +2,9 @@
 <html lang="ko">
   <head>
     <!-- Google tag (gtag.js) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-6QSG9E4JKX"></script>
-  
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -82,19 +83,75 @@
       </header>
 
       <!-- 메인 배너 -->
-      <section class="main-banner">
-        <div class="main-banner__image" id="mainBanner">
-          <img src="images/main Banner.png" alt="Main Banner" />
+      <section class="main-banner swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="main-banner__image">
+              <img src="images/main-banner/main Banner.png" alt="Main Banner 1" />
+            </div>
+            <div class="main-banner__content">
+              <h1 class="main-banner__title">
+                <span class="year">2026</span>
+                <span class="Spring">Spring</span>
+                <span class="Summer">Summer</span>
+                <span class="for-yoy">for yoy</span>
+              </h1>
+              <h2 class="main-banner__subtitle">당신의 일상을 빛낼 새로운 실루엣</h2>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="main-banner__image">
+              <img src="images/main-banner/main2.png" alt="Main Banner 2" />
+            </div>
+            <div class="main-banner__content">
+              <h3 class="h3">New Season, New Muse</h3>
+              <p>클래식에 더한 동시대적 감각</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="main-banner__image">
+              <img src="images/main-banner/main3.png" alt="Main Banner 3" />
+            </div>
+            <div class="main-banner__content">
+              <h3 class="h3">Season Transition</h3>
+              <p>지금 입을 외투와 내일의 원피스</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="main-banner__image">
+              <img src="images/main-banner/main 4.png" alt="Main Banner 4" />
+            </div>
+            <div class="main-banner__content">
+              <h3 class="h3">The Art of Spring</h3>
+              <p>당신의 일상을 예술로 만드는 룩</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="main-banner__image">
+              <img src="images/main-banner/main5.png" alt="Main Banner 5" />
+            </div>
+            <div class="main-banner__content">
+              <h3 class="h3">Blooming Elegance</h3>
+              <p>가장 아름다운 순간을 위한 스타일</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="main-banner__image">
+              <img src="images/main-banner/main6.png" alt="Main Banner 6" />
+            </div>
+            <div class="main-banner__content">
+              <h3 class="h3">2025 F/W SEASON OFF 50%</h3>
+              <p>놓칠 수 없는 계절 끝의 특별한 혜택</p>
+            </div>
+          </div>
         </div>
-        <div class="main-banner__content">
-          <h1 class="main-banner__title">
-            <span class="year">2026</span>
-            <span class="Spring">Spring</span>
-            <span class="Summer">Summer</span>
-            <span class="for-yoy">for yoy</span>
-          </h1>
-          <h2 class="main-banner__subtitle">당신의 일상을 빛낼 새로운 실루엣</h2>
-        </div>
+
+        <div class="swiper-pagination"></div>
       </section>
 
       <!-- 서브 배너 슬라이더 -->
@@ -202,36 +259,36 @@
       </section>
 
       <!-- 요즘 트렌드 -->
-       <section class="trends">
-  <div class="trends__header">
-    <h2 class="trends__title">요즘 트렌드</h2>
-  </div>
-  <div class="trends__slider" id="trendsSlider">
-    <article class="trend-card">
-      <img src="images/trends/trend1.png" alt="MD 추천 코디">
-      <div class="trend-card__content">
-        <h3 class="trend-card__title">MD가 직접 입어봤어요!</h3>
-        <p class="trend-card__subtitle">지금 입기 딱 좋은 라인 에디션과 케네스레이디의 의상</p>
-      </div>
-    </article>
+      <section class="trends">
+        <div class="trends__header">
+          <h2 class="trends__title">요즘 트렌드</h2>
+        </div>
+        <div class="trends__slider" id="trendsSlider">
+          <article class="trend-card">
+            <img src="images/trends/trend1.png" alt="MD 추천 코디" />
+            <div class="trend-card__content">
+              <h3 class="trend-card__title">MD가 직접 입어봤어요!</h3>
+              <p class="trend-card__subtitle">지금 입기 딱 좋은 라인 에디션과 케네스레이디의 의상</p>
+            </div>
+          </article>
 
-    <article class="trend-card">
-      <img src="images/trends/trend2.png" art="컬러 포인트 아이템">
-      <div class="trend-card__content">
-        <h3 class="trend-card__title">COLOR POINT ITEM</h3>
-        <p class="trend-card__subtitle">  컬러 포인트</p>
-      </div>
-    </article>
+          <article class="trend-card">
+            <img src="images/trends/trend2.png" art="컬러 포인트 아이템" />
+            <div class="trend-card__content">
+              <h3 class="trend-card__title">COLOR POINT ITEM</h3>
+              <p class="trend-card__subtitle">컬러 포인트</p>
+            </div>
+          </article>
 
-    <article class="trend-card">
-      <img src="images/trends/trend3.png" alt="26SS 컬렉션">
-      <div class="trend-card__content">
-        <h3 class="trend-card__title">Move Me</h3>
-        <p class="trend-card__subtitle">26S/S COLLECTION 2ND OPEN</p>
-      </div>
-    </article>
-  </div>
-</section>
+          <article class="trend-card">
+            <img src="images/trends/trend3.png" alt="26SS 컬렉션" />
+            <div class="trend-card__content">
+              <h3 class="trend-card__title">Move Me</h3>
+              <p class="trend-card__subtitle">26S/S COLLECTION 2ND OPEN</p>
+            </div>
+          </article>
+        </div>
+      </section>
 
       <!-- 시작을 완성하는 샵 -->
       <section class="brand-shop">
@@ -284,7 +341,6 @@
           </div>
 
           <div class="brand-item">
-
             <div class="brand-item__logo-box">
               <img src="images/brand-shop/line studio.png" alt="라인스튜디오원" class="brand-item__img" />
             </div>
@@ -355,7 +411,7 @@
                 <img src="images/promotion/1-2.png" alt="상품" />
                 <div class="sub-item__info">
                   <p class="sub-item__brand">LINE ADDITION</p>
-                  <p class="sub-item__name">골든 트위드 자켓 </p>
+                  <p class="sub-item__name">골든 트위드 자켓</p>
                   <p class="sub-item__price">297,000 <span class="discount">60%</span></p>
                 </div>
               </div>
@@ -393,7 +449,7 @@
               <img src="images/promotion/3.png" alt="LINE BRAND WEEK" />
               <div class="promotion-featured__content">
                 <h3 class="promotion-featured__title">라인어디션 BRAND WEEK</h3>
-                <p class="promotion-featured__subtitle"> 클래식한 아름다움을 완성하는 룩</p>
+                <p class="promotion-featured__subtitle">클래식한 아름다움을 완성하는 룩</p>
               </div>
             </div>
             <div class="promotion-sub-list">
@@ -428,7 +484,7 @@
                 <img src="images/promotion/4-1.png" alt="상품" />
                 <div class="sub-item__info">
                   <p class="sub-item__brand">KENNETH LADY</p>
-                  <p class="sub-item__name">바니샤 스커트
+                  <p class="sub-item__name">바니샤 스커트</p>
                   <p class="sub-item__price">135,000 <span class="discount">65%</span></p>
                 </div>
               </div>
@@ -436,7 +492,7 @@
                 <img src="images/promotion/4-2.png" alt="상품" />
                 <div class="sub-item__info">
                   <p class="sub-item__brand">KENNETH LADY</p>
-                  <p class="sub-item__name">메르비 S/T NB
+                  <p class="sub-item__name">메르비 S/T NB</p>
                   <p class="sub-item__price">119,000 <span class="discount">60%</span></p>
                 </div>
               </div>
@@ -689,45 +745,63 @@
         </div>
       </section>
       <!-- 스타일 코디 -->
-       <div class="style-coordi">
-  <h2 class="title">스타일 코디</h2>
-  
-  <div class="coordi-container">
-    <div class="coordi-column">
-      <div class="item">
-        <div class="img-box ratio-long"><img src="images/style-codi/Thom Browne.jpg" alt=""></div>
-        <div class="text-box"><h3>주목 받는 해외 브랜드</h3><p>THOM BROWNE</p></div>
-      </div>
-      <div class="item">
-        <div class="img-box ratio-short"><img src="images/style-codi/4.png" alt=""></div>
-        <div class="text-box"><h3>금주 골프웨어 추천!</h3><p>요즘 입기 좋은 힙한 골프웨어</p></div>
-      </div>
-    </div>
+      <div class="style-coordi">
+        <h2 class="title">스타일 코디</h2>
 
-    <div class="coordi-column center-col">
-      <div class="item">
-        <div class="img-box ratio-short"><img src="images/style-codi/2.png" alt=""></div>
-        <div class="text-box"><h3>바이린샵 with 인플루언서</h3><p>인플루언서가 PICK한 아이템</p></div>
-      </div>
-      <div class="item">
-        <div class="img-box ratio-long"><img src="images/style-codi/5.jpg" alt=""></div>
-        <div class="text-box"><h3>새해 운동 다짐 필수템</h3><p>바이린샵이 추춘하는 프리미엄 애스레저룩</p></div>
-      </div>
-    </div>
+        <div class="coordi-container">
+          <div class="coordi-column">
+            <div class="item">
+              <div class="img-box ratio-long"><img src="images/style-codi/Thom Browne.jpg" alt="" /></div>
+              <div class="text-box">
+                <h3>주목 받는 해외 브랜드</h3>
+                <p>THOM BROWNE</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-box ratio-short"><img src="images/style-codi/4.png" alt="" /></div>
+              <div class="text-box">
+                <h3>금주 골프웨어 추천!</h3>
+                <p>요즘 입기 좋은 힙한 골프웨어</p>
+              </div>
+            </div>
+          </div>
 
-    <div class="coordi-column">
-      <div class="item">
-        <div class="img-box ratio-long"><img src="images/style-codi/3.jpg" alt=""></div>
-        <div class="text-box"><h3>오늘은 또 뭐 입지?</h3><p>출근룩, 하객룩, 데이트룩 한 번에 해결!</p></div>
+          <div class="coordi-column center-col">
+            <div class="item">
+              <div class="img-box ratio-short"><img src="images/style-codi/2.png" alt="" /></div>
+              <div class="text-box">
+                <h3>바이린샵 with 인플루언서</h3>
+                <p>인플루언서가 PICK한 아이템</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-box ratio-long"><img src="images/style-codi/5.jpg" alt="" /></div>
+              <div class="text-box">
+                <h3>새해 운동 다짐 필수템</h3>
+                <p>바이린샵이 추춘하는 프리미엄 애스레저룩</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="coordi-column">
+            <div class="item">
+              <div class="img-box ratio-long"><img src="images/style-codi/3.jpg" alt="" /></div>
+              <div class="text-box">
+                <h3>오늘은 또 뭐 입지?</h3>
+                <p>출근룩, 하객룩, 데이트룩 한 번에 해결!</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-box ratio-short"><img src="images/style-codi/6.jpg" alt="" /></div>
+              <div class="text-box">
+                <h3>SURFEA 스윔&라이프웨어 브랜드</h3>
+                <p>자유로운 라이프스타일을 완성하는 아이템</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="item">
-        <div class="img-box ratio-short"><img src="images/style-codi/6.jpg" alt=""></div>
-        <div class="text-box"><h3>SURFEA 스윔&라이프웨어 브랜드</h3><p>자유로운 라이프스타일을 완성하는 아이템</p></div>
-      </div>
-    </div>
-  </div>
-</div>
- <!-- 공지사항 -->
+      <!-- 공지사항 -->
       <section class="notice">
         <div class="notice__header">
           <h2 class="notice__title">공지사항</h2>
